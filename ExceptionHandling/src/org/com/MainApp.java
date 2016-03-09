@@ -8,6 +8,8 @@ public class MainApp {
 		        Class cls = Class.forName("org.com.Team");
 
 		        System.out.println("Class = " + cls.getName());
+		        
+		        System.out.println("New statement added");
 		     }
 		     catch(ClassNotFoundException ex) {
 		        System.out.println(ex.toString());
