@@ -68,7 +68,10 @@ class Child extends ParentChild{
 	}
 
 	public void method5() throws RuntimeException{
-
+		try{
+			
+		}catch(Throwable e){
+		}
 	}
 
 	public void method6() throws ArithmeticException{
